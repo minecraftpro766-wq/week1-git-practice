@@ -1,0 +1,1 @@
+This repo is for practicing git and github basics for week 1 and to show issac that I did the homework and the labs. Github has is version control.
