@@ -1,0 +1,14 @@
+What problem does infrastructure's code solve that clicking around the console doesn't give a real reason, not just that it's automated? 
+response: Infrastructure code solves the problem of human error in creating and deleting resources really fast and in an efficient, timely manner. The risk of having to go inside the user interface and potentially messing something up inside your infrastructure or outside of it 
+What is Terraform in one or two sentences? 
+response:  Terraform is an infrastructure code tool used by HashiCorp. It lets you create infrastructure using code. It's a great way to manage your resources inside of your infrastructure without having to go inside the infrastructure inside the user interface. 
+What is Terraform State? Why does Terraform need to keep track of state? 
+response:  So Terraform State is essentially Terraform as a memory. It's its own unique way of remembering anything that happened between the change that you've made and anything inside of it. It just remembers it. It's stateful. That means it keeps track of the memory and changes, kind of like how GitHub works and how it's version controlled. Terraform needs to keep track of the state because it's important that it remembers what you do. Based off what you do, it can just spin up or manage your resources as cleanly. 
+What is the difference between Terraform plan and Terraform apply? 
+response: The difference between terraform apply and plan is:
+- Plan basically shows you all the infrastructure as code that you've made, all the resources that are about to be sent live. Essentially, inside of plan, it lets you know that everything is working correctly.
+- Terraform apply makes those changes live and it creates the containers or servers or anything that you were doing inside of the code.
+What does Terraform Destroy do, and why is it useful, especially for keeping AWS costs down? 
+response: Terraform destroy essentially removes all of your resources that you created that you used with terraform apply. It's useful, especially for keeping AWS cost down, because you're able to spin up instances really fast and efficiently in a timely manner. Stateful helps with that, because it remembers everything that you did and done, so you don't need to have it running if it's not something that needs to be running at the current time. It's very useful. 
+
+additional notes and words from though:  Yes, I actually do know what state is conceptually from when we talked about it. I don't like how an MD file works and then an MD file has notes inside of it that you read, but it lets you know what's going on inside of your files or any changes that have been made. It's just a quick way and a really nice way of remembering the memory. 
